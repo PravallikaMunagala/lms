@@ -41,8 +41,8 @@ class Nav extends Component {
                                     </NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/student">
-                                        Students
+                                    <NavLink className="nav-link" to="/readers">
+                                        Readers
                                     </NavLink>
                                 </li>
                             </ul>

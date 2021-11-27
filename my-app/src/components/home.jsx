@@ -1,28 +1,28 @@
 import React, { Component } from "react";
-import EmpTable from "./empTable";
+import EmpTable from "./emptable";
 
 class Home extends React.Component {
     state = {
         count: 0,
         employee: {
-            empId: 1001,
-            empName: "Ram",
-            salary: 35000
+            empId: 1,
+            empName: "Pravallika",
+            salary: 35000,
         },
         employees: [
             {
-                empId: 1002,
+                empId: 2,
                 empName: "Sam",
                 salary: 45000
             },
             {
-                empId: 1003,
-                empName: "Ravi",
+                empId: 3,
+                empName: "Pooja",
                 salary: 55000
             },
             {
-                empId: 1004,
-                empName: "Raji",
+                empId: 4,
+                empName: "Asha",
                 salary: 65000
             },
         ]
